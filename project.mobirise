@@ -3,7 +3,7 @@
     "name": "My Site",
     "currentPage": "index.html",
     "versionFirst": "4.0.14",
-    "uniqCompNum": 23,
+    "uniqCompNum": 24,
     "versionPublish": "4.6.7",
     "theme": {
       "name": "mobirise4",
@@ -11,7 +11,7 @@
       "styling": {
         "primaryColor": "#55b4d4",
         "secondaryColor": "#ff3366",
-        "successColor": "#F7ED4A",
+        "successColor": "#f9f295",
         "infoColor": "#82786E",
         "warningColor": "#879A9F",
         "dangerColor": "#B1A374",
@@ -22,7 +22,7 @@
         "display2Size": 3,
         "display5Font": "Rubik",
         "display5Size": 1.5,
-        "display7Font": "Rubik",
+        "display7Font": "Open Sans",
         "display7Size": 1,
         "display4Font": "Open Sans",
         "display4Size": "1.2",
@@ -67,16 +67,16 @@
               "font-style": "italic"
             },
             "DIV": {
-              "color": "#ffffff",
+              "color": "#f9f295",
               "text-align": "left"
             },
             "H3": {
-              "color": "#ffffff",
+              "color": "#f7ed4a",
               "text-align": "left"
             }
           },
           "_name": "header9",
-          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><div><br></div><div><br></div></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><span style=\"font-style: normal;\">S.M. COMPUTER SERVICES &nbsp;</span><br><br>Better solutions for your IT needs....<br><br><br><div>Shop No. 23 AMC Complex, Rajapeth Amravati.</div><div>-------------------------------------------------</div><div><span style=\"font-size: calc(1.07rem + (0.13 * ((100vw - 20rem) / 28)));\"><br></span></div><br><div><span style=\"font-size: calc(1.07rem + (0.13 * ((100vw - 20rem) / 28)));\">Here are some services we may offer</span><br></div><br><br><div>\n</div><div>\n</div><div>\n</div><div>--     Installing &amp; Maintaining computer systems\n</div><div>--     Hardware &amp; Networking (PC Assembly)(LAN/WAN)\n</div><div>--     Online Remote Support Services\n</div><div>--     Hardware Upgradation\n</div><div>--     Tally Software Support\n</div><div>--     Linux Distribution &amp; Support (All Flavors)\n</div><div>--    Annual Maintenance Contracts\n</div><div>--    Website Development\n</div><div>--    Wide Range of Software on all Windows Platforms\n</div><div>-- Printer &amp; Toner Refilling</div>-- Advance Network Security<br><div>--    Laptops Firmware Upgradation\n</div><div>--    viruses &amp; spyware recovery\n</div><div>--    Firewall installation &amp; maintenance For Better Internet Security\n</div><div>--    Application Maintenance &amp; Updates\n</div><div>--    Data recovery from Crashed &nbsp; &nbsp; &nbsp; &nbsp;Hard Disks, Formatted Disks, &nbsp; &nbsp;Pen- drives,memory cards, SSDs,<span style=\"font-size: 1.4rem;\">&nbsp;</span></div><br><div><br></div><div>We specialize in providing onsite computer repair services and network support for small &amp; medium size business. As your \"Part-Time IT Department,\" we deliver on-demand, on-site computer and network services that are convenient and reliable.\n</div><div>Our commitment to world-class customer service has made us the most respected on-site computer repair and support provider in our service area. Most importantly, we guarantee our work !</div><div><br></div><br><div>&nbsp;ON CALL SERVICES</div><br><div><br></div><div>• Onsite Computer Repairs for businesses \n</div><div>• Remote Support and Software Assistance \n</div><div>• Custom built computer systems (your specifications) \n</div><div>• Wireless networking and router installation \n</div><div>• Emergency Hard Drive Data Recovery \n</div><div>• Onsite Virus removal / Firewall Protection \n</div><div>• Custom Web Design \n</div><div>• Firewall and virus protection \n</div><div>• Spyware shields, Pop-Up Blockers \n</div><div>• System Restoration \n</div><div>• Software and Hardware upgrades \n</div><div>• General Maintenance&nbsp;</div></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\"></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\"><a class=\"btn btn-md btn-secondary\" href=\"tel:9923311038\"><span class=\"mbri-mobile2 mbr-iconfont mbr-iconfont-btn\"><br></span>Shailesh More 9923311038</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"header9\" group=\"Headers\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-fullscreen': fullScreen,\n                    'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Full Screen\" name=\"fullScreen\" checked>\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" condition=\"fullScreen == false\">\n        <input type=\"checkbox\" title=\"Show Arrow\" name=\"showArrow\" checked>\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Text\" name=\"showText\" checked>\n        <input type=\"checkbox\" title=\"Show Buttons\" name=\"showButtons\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"@PROJECT_PATH@/assets/images/mbr-1620x1080.jpg\" parallax selected>\n            <input type=\"color\" title=\"Background Color\" value=\"#232323\">\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\" checked>\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n\n    <div class=\"container\">\n        <div class=\"media-container-column mbr-white col-md-8\">\n            <h1 class=\"mbr-section-title align-left mbr-bold pb-3 mbr-fonts-style\" mbr-theme-style=\"display-7\" mbr-if=\"showTitle\"><div><br></div><div><br></div></h1>\n            <h3 class=\"mbr-section-subtitle align-left mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-4\" mbr-if=\"showSubTitle\"><span style=\"font-style: normal;\">S.M. COMPUTER SERVICES &nbsp;</span><br><br>Better solutions for your IT needs....<br><br><br><div>Shop No. 23 AMC Complex, Rajapeth Amravati.</div><div>-------------------------------------------------</div><div><span style=\"font-size: calc(1.07rem + (0.13 * ((100vw - 20rem) / 28)));\"><br></span></div><br><div><span style=\"font-size: calc(1.07rem + (0.13 * ((100vw - 20rem) / 28)));\">Here are some services we may offer</span><br></div><br><br><div>\n</div><div>\n</div><div>\n</div><div>--     Installing &amp; Maintaining computer systems\n</div><div>--     Hardware &amp; Networking (PC Assembly)(LAN/WAN)\n</div><div>--     Online Remote Support Services\n</div><div>--     Hardware Upgradation\n</div><div>--     Tally Software Support\n</div><div>--     Linux Distribution &amp; Support (All Flavors)\n</div><div>--    Annual Maintenance Contracts\n</div><div>--    Website Development\n</div><div>--    Wide Range of Software on all Windows Platforms\n</div><div>-- Printer &amp; Toner Refilling</div>-- Advance Network Security<br><div>--    Laptops Firmware Upgradation\n</div><div>--    viruses &amp; spyware recovery\n</div><div>--    Firewall installation &amp; maintenance For Better Internet Security\n</div><div>--    Application Maintenance &amp; Updates\n</div><div>--    Data recovery from Crashed &nbsp; &nbsp; &nbsp; &nbsp;Hard Disks, Formatted Disks, &nbsp; &nbsp;Pen- drives,memory cards, SSDs.<span style=\"font-size: 1.4rem;\">&nbsp;</span></div><br><div><br></div><div>We specialize in providing onsite computer repair services and network support for small &amp; medium size business. As your \"Part-Time IT Department,\" we deliver on-demand, on-site computer and network services that are convenient and reliable.\n</div><div>Our commitment to world-class customer service has made us the most respected on-site computer repair and support provider in our service area. Most importantly, we guarantee our work !</div><div><br></div><br><div>## ON CALL SERVICES&nbsp;</div><br><div><br></div><div>• Onsite Computer Repairs for businesses \n</div><div>• Remote Support and Software Assistance \n</div><div>• Custom built computer systems (your specifications) \n</div><div>• Wireless networking and router installation \n</div><div>• Emergency Hard Drive Data Recovery \n</div><div>• Onsite Virus removal / Firewall Protection \n</div><div>• Custom Web Design \n</div><div>• Firewall and virus protection \n</div><div>• Spyware shields, Pop-Up Blockers \n</div><div>• System Restoration \n</div><div>• Software and Hardware upgrades \n</div><div>• General Maintenance&nbsp;</div></h3>\n            <p class=\"mbr-text align-left pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" mbr-if=\"showText\"></p>\n            <div class=\"mbr-section-btn align-left\" mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-7\"><a class=\"btn btn-md btn-secondary\" href=\"tel:9923311038\"><span class=\"mbri-mobile2 mbr-iconfont mbr-iconfont-btn\"><br></span>Shailesh More 9923311038</a></div>\n        </div>\n    </div>\n\n    <div mbr-if=\"showArrow\" class=\"mbr-arrow hidden-sm-down\" aria-hidden=\"true\">\n        <a href=\"#next\">\n            <i class=\"mbri-down mbr-iconfont\"></i>\n        </a>\n    </div>\n</section>",
           "_anchor": "header9-l",
           "_isUserblock": true,
           "_cid": "rDDyuaJSRU",
@@ -84,6 +84,57 @@
           "_global": false,
           "_once": false,
           "_params": {}
+        }
+      ]
+    },
+    "page1.html": {
+      "settings": {
+        "meta_descr": "Site Generator Description",
+        "title": "Contact",
+        "order": 1
+      },
+      "components": [
+        {
+          "_styles": {
+            "padding-top": "(@paddingTop * 15px)",
+            "padding-bottom": "(@paddingBottom * 15px)",
+            "& when (@bg-type = 'color')": {
+              "background-color": "@bg-value"
+            },
+            "& when (@bg-type = 'image')": {
+              "background-image": "url(@bg-value)"
+            },
+            ".title": {
+              "margin-bottom": "2rem"
+            },
+            ".mbr-section-subtitle": {
+              "color": "#767676"
+            },
+            "a:not([href]):not([tabindex])": {
+              "color": "#fff",
+              "border-radius": "3px"
+            },
+            "a.btn-white:not([href]):not([tabindex])": {
+              "color": "#333"
+            },
+            ".multi-horizontal": {
+              "flex-grow": "1",
+              "-webkit-flex-grow": "1",
+              "max-width": "100%"
+            },
+            ".input-group-btn": {
+              "display": "block",
+              "text-align": "center"
+            }
+          },
+          "_name": "form1",
+          "_customHTML": "<section class=\"mbr-section form1\" group=\"Forms\" data-bg-video=\"{{bg.type == 'video' && bg.value.url}}\" mbr-class=\"{'mbr-parallax-background': bg.parallax}\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" inline title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"8\" value=\"6\">\n        <input type=\"range\" inline title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"8\" value=\"6\">\n\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n\n        <fieldset type=\"background\" name=\"bg\" parallax>\n            <input type=\"image\" title=\"Background Image\" value=\"../_images/background2.jpg\" parallax>\n            <input type=\"color\" title=\"Background Color\" value=\"#ffffff\" selected>\n            <input type=\"video\" title=\"Background Video\" value=\"http://www.youtube.com/watch?v=uNCr7NdOJgw\">\n        </fieldset>\n        <input type=\"checkbox\" title=\"Overlay\" name=\"overlay\" condition=\"bg.type !== 'color'\">\n        <input type=\"color\" title=\"Overlay Color\" name=\"overlayColor\" value=\"#000000\" condition=\"overlay && bg.type !== 'color'\">\n        <input type=\"range\" inline title=\"Opacity\" name=\"overlayOpacity\" min=\"0\" max=\"1\" step=\"0.1\" value=\"0.2\" condition=\"overlay && bg.type !== 'color'\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n\n    <div class=\"mbr-overlay\" mbr-if=\"overlay && bg.type!== 'color'\" mbr-style=\"{'opacity': overlayOpacity, 'background-color': overlayColor}\">\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"title col-12 col-lg-8\">\n                <h2 mbr-if=\"showTitle\" class=\"mbr-section-title align-center pb-3 mbr-fonts-style\" mbr-theme-style=\"display-2\">\n                    CONTACT FORM\n                </h2>\n                <h3 mbr-if=\"showSubtitle\" class=\"mbr-section-subtitle align-center mbr-light pb-3 mbr-fonts-style\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\">\n                    Easily add subscribe and contact forms without any server-side integration.\n                </h3>\n            </div>\n        </div>\n    </div>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div mbr-form class=\"media-container-column col-lg-8\">\n                    <div data-form-alert hidden>Thanks for filling out the form!</div>\n            \n                    <form class=\"mbr-form\" action=\"moreshail1@gmail.com\" method=\"post\" name=\"Mobirise Form\">\n                        <div class=\"row row-sm-offset\">\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"name\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"name\">Name</label>\n                                    <input type=\"text\" class=\"form-control\" name=\"name\" data-form-field=\"Name\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"email\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"email\">Email</label>\n                                    <input type=\"email\" class=\"form-control\" name=\"email\" data-form-field=\"Email\" required>\n                                </div>\n                            </div>\n                            <div class=\"col-md-4 multi-horizontal\" data-for=\"phone\">\n                                <div class=\"form-group\">\n                                    <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"phone\">Phone</label>\n                                    <input type=\"tel\" class=\"form-control\" name=\"phone\" data-form-field=\"Phone\">\n                                </div>\n                            </div>\n                        </div>\n                        <div class=\"form-group\" data-for=\"message\">\n                            <label mbr-text class=\"form-control-label mbr-fonts-style\" mbr-theme-style=\"display-7\" for=\"message\">Message</label>\n                            <textarea type=\"text\" class=\"form-control\" name=\"message\" rows=\"7\" data-form-field=\"Message\"></textarea>\n                        </div>\n            \n                        <span mbr-buttons mbr-theme-style=\"display-4\" data-toolbar=\"-mbrLink,-mbrBtnAdd,-mbrBtnMove\" class=\"input-group-btn\">\n                            <a href type=\"submit\" class=\"btn btn-primary btn-form\">SEND FORM</a>\n                        </span>\n                    </form>\n            </div>\n        </div>\n    </div>\n</section>",
+          "_cid": "rDDBKxBeQV",
+          "_protectedParams": [],
+          "_global": false,
+          "_once": false,
+          "_params": {},
+          "_anchor": "form1-n"
         }
       ]
     }
