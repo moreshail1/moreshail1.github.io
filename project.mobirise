@@ -30,7 +30,9 @@
         "isAnimatedOnScroll": true,
         "isScrollToTopButton": true
       },
-      "additionalSetColors": []
+      "additionalSetColors": [
+        "#fafafa"
+      ]
     },
     "path": "@PROJECT_PATH@",
     "screenshot": "screenshot.png"
@@ -68,12 +70,15 @@
               "font-style": "italic"
             },
             "DIV": {
-              "color": "#f7ed4a",
+              "color": "#fafafa",
               "text-align": "left"
             },
             "H3": {
-              "color": "#f7ed4a",
+              "color": "#ffffff",
               "text-align": "left"
+            },
+            "SPAN": {
+              "color": "#ffffff"
             }
           },
           "_name": "header9",
